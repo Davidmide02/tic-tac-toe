@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --orange: #f2c14e;
+    --win-block: #2d414b;
+    --board-color: #37505c;
+}
+
+body {
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--board-color);
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin-bottom: 2rem;
+    color: var(--orange);
+}
+
+
+.gameboard {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+
+
+.cells {
+    width: 4.68rem;
+    height: 4.68rem;
+    border: 2px solid var(--orange);
+    box-shadow: 0 0 0 2px var(--orange);
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: var(--board-color);
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+button {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    background-color: var(--board-color);
+    border: 2px solid var(--board-color);
+    border-radius: 4px;
+    color: rgb(250, 245, 245);
+    border: none;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: var(--orange);
+    color: var(--board-color);
+    cursor: pointer;
+}
+
+.statusText,
+.playerTurn {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.statusText {
+    margin-top: 2rem;
+};
