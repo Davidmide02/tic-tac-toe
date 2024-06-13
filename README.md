@@ -33,6 +33,6 @@ This is a Tic Tac Toe game powered by JavaScript
 - JavaScript
 
 # Links
-![live link] (https://famous-fenglisu-6976a3.netlify.app/)
+![live link] [https://famous-fenglisu-6976a3.netlify.app/]
 ![Solution link] (https://github.com/Davidmide02/tic-tac-toe.git)
 
