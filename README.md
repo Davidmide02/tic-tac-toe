@@ -31,8 +31,9 @@ This is a Tic Tac Toe game powered by JavaScript
 - HTML
 - CSS
 - JavaScript
+  
+### Links
+- Solution URL: [Solution link](https://github.com/Davidmide02/tic-tac-toe.git)
+- Live Site URL: [live link ](https://famous-fenglisu-6976a3.netlify.app/)
 
-# Links
-![live link] [https://famous-fenglisu-6976a3.netlify.app/]
-![Solution link] (https://github.com/Davidmide02/tic-tac-toe.git)
 
